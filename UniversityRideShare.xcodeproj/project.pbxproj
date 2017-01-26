@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF13B98C1E178CB30035078E /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF13B98B1E178CB30035078E /* Picker.swift */; };
+		BF17D7A11E1A672600120B24 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF17D7A01E1A672600120B24 /* ProfileViewController.swift */; };
+		BF17D7A41E1B1C7E00120B24 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF17D7A31E1B1C7E00120B24 /* DateViewController.swift */; };
+		BF17D7A61E1B231D00120B24 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF17D7A51E1B231D00120B24 /* MapViewController.swift */; };
+		BF17D7A81E1BAB2E00120B24 /* PickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF17D7A71E1BAB2E00120B24 /* PickerCell.swift */; };
+		BF75DFAC1E20CF36006B21D7 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75DFAB1E20CF36006B21D7 /* DateCell.swift */; };
+		BF75DFAE1E20EB60006B21D7 /* AdditionalItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75DFAD1E20EB60006B21D7 /* AdditionalItemsViewController.swift */; };
+		BF7ED0601DFE789A00989B9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7ED05F1DFE789A00989B9D /* AppDelegate.swift */; };
+		BF7ED0651DFE789A00989B9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7ED0631DFE789A00989B9D /* Main.storyboard */; };
+		BF7ED0671DFE789A00989B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7ED0661DFE789A00989B9D /* Assets.xcassets */; };
+		BF7ED06A1DFE789A00989B9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7ED0681DFE789A00989B9D /* LaunchScreen.storyboard */; };
+		BF7ED0721DFEA6F500989B9D /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7ED0711DFEA6F500989B9D /* background.png */; };
+		BF7ED0741DFEA84D00989B9D /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7ED0731DFEA84D00989B9D /* background2.png */; };
+		BF7ED0761DFF4CF200989B9D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF7ED0751DFF4CF200989B9D /* GoogleService-Info.plist */; };
+		BF7ED07C1E014E2100989B9D /* background3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF7ED07B1E014E2100989B9D /* background3.jpg */; };
+		BF7ED07E1E01565E00989B9D /* 120 - iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7ED07D1E01565E00989B9D /* 120 - iPhone.png */; };
+		BF7ED0801E0236AF00989B9D /* whitespace.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7ED07F1E0236AF00989B9D /* whitespace.png */; };
+		BF7ED0821E0236EB00989B9D /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7ED0811E0236EB00989B9D /* CreateAccountViewController.swift */; };
+		BF7ED0841E02394100989B9D /* textfieldarea.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7ED0831E02394100989B9D /* textfieldarea.png */; };
+		BF7ED0861E0397C100989B9D /* GoogleSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7ED0851E0397C100989B9D /* GoogleSignInViewController.swift */; };
+		BF7ED0881E03DFC600989B9D /* roadbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7ED0871E03DFC600989B9D /* roadbackground.png */; };
+		BF7ED08C1E068E3C00989B9D /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7ED08B1E068E3C00989B9D /* LoginScreenViewController.swift */; };
+		BF7ED08E1E06990D00989B9D /* DriverPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7ED08D1E06990D00989B9D /* DriverPostViewController.swift */; };
+		BF7ED0901E07DB0400989B9D /* DriverRider2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7ED08F1E07DB0400989B9D /* DriverRider2ViewController.swift */; };
+		BF7ED0921E0B549F00989B9D /* RiderDriverPostsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7ED0911E0B549F00989B9D /* RiderDriverPostsCollectionViewController.swift */; };
+		BF7ED0941E0D196100989B9D /* RidePostsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7ED0931E0D196100989B9D /* RidePostsCollectionViewCell.swift */; };
+		BF9695301E15F09D0033CDA4 /* RidePosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF96952F1E15F09D0033CDA4 /* RidePosts.swift */; };
+		BFB5CEE51E112202009090C4 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB5CEE41E112202009090C4 /* PostCell.swift */; };
+		BFB5CEE91E1237F8009090C4 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB5CEE81E1237F8009090C4 /* Test.swift */; };
+		BFB5CEEB1E12443A009090C4 /* FiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB5CEEA1E12443A009090C4 /* FiltersViewController.swift */; };
+		BFB5CEED1E136E32009090C4 /* LoginInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB5CEEC1E136E32009090C4 /* LoginInfo.swift */; };
+		BFB5CEEF1E1377F0009090C4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB5CEEE1E1377F0009090C4 /* LoginViewController.swift */; };
+		BFB5CEF11E151013009090C4 /* DriverOrRiderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB5CEF01E151013009090C4 /* DriverOrRiderViewController.swift */; };
+		BFB5CEF41E152297009090C4 /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB5CEF31E152297009090C4 /* DriverViewController.swift */; };
+		BFB5CEF81E1529C6009090C4 /* CreateAccViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB5CEF71E1529C6009090C4 /* CreateAccViewController.swift */; };
+		BFB5CEFA1E1529F7009090C4 /* GoogleVerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB5CEF91E1529F7009090C4 /* GoogleVerifyViewController.swift */; };
+		BFB5CEFC1E15E87A009090C4 /* RiderCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB5CEFB1E15E87A009090C4 /* RiderCollectionViewController.swift */; };
+		C8D8F00761D02085EA17AD45 /* Pods_UniversityRideShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D472F92F0693296D1ADC5C8F /* Pods_UniversityRideShare.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18F177D6BA5CB2A602A9E39E /* Pods-UniversityRideShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversityRideShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UniversityRideShare/Pods-UniversityRideShare.debug.xcconfig"; sourceTree = "<group>"; };
+		976AF000BB54B561FE814C7B /* Pods-UniversityRideShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversityRideShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-UniversityRideShare/Pods-UniversityRideShare.release.xcconfig"; sourceTree = "<group>"; };
+		BF13B98B1E178CB30035078E /* Picker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
+		BF17D7A01E1A672600120B24 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BF17D7A31E1B1C7E00120B24 /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		BF17D7A51E1B231D00120B24 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		BF17D7A71E1BAB2E00120B24 /* PickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerCell.swift; sourceTree = "<group>"; };
+		BF75DFAB1E20CF36006B21D7 /* DateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		BF75DFAD1E20EB60006B21D7 /* AdditionalItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdditionalItemsViewController.swift; sourceTree = "<group>"; };
+		BF7ED05C1DFE789A00989B9D /* UniversityRideShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversityRideShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7ED05F1DFE789A00989B9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF7ED0641DFE789A00989B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF7ED0661DFE789A00989B9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF7ED0691DFE789A00989B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF7ED06B1DFE789A00989B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF7ED0711DFEA6F500989B9D /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		BF7ED0731DFEA84D00989B9D /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
+		BF7ED0751DFF4CF200989B9D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BF7ED07B1E014E2100989B9D /* background3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background3.jpg; sourceTree = "<group>"; };
+		BF7ED07D1E01565E00989B9D /* 120 - iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "120 - iPhone.png"; sourceTree = "<group>"; };
+		BF7ED07F1E0236AF00989B9D /* whitespace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitespace.png; sourceTree = "<group>"; };
+		BF7ED0811E0236EB00989B9D /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		BF7ED0831E02394100989B9D /* textfieldarea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textfieldarea.png; sourceTree = "<group>"; };
+		BF7ED0851E0397C100989B9D /* GoogleSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleSignInViewController.swift; sourceTree = "<group>"; };
+		BF7ED0871E03DFC600989B9D /* roadbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roadbackground.png; sourceTree = "<group>"; };
+		BF7ED08B1E068E3C00989B9D /* LoginScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		BF7ED08D1E06990D00989B9D /* DriverPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverPostViewController.swift; sourceTree = "<group>"; };
+		BF7ED08F1E07DB0400989B9D /* DriverRider2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverRider2ViewController.swift; sourceTree = "<group>"; };
+		BF7ED0911E0B549F00989B9D /* RiderDriverPostsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiderDriverPostsCollectionViewController.swift; sourceTree = "<group>"; };
+		BF7ED0931E0D196100989B9D /* RidePostsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidePostsCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF96952F1E15F09D0033CDA4 /* RidePosts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidePosts.swift; sourceTree = "<group>"; };
+		BFB5CEE41E112202009090C4 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		BFB5CEE81E1237F8009090C4 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		BFB5CEEA1E12443A009090C4 /* FiltersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltersViewController.swift; sourceTree = "<group>"; };
+		BFB5CEEC1E136E32009090C4 /* LoginInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInfo.swift; sourceTree = "<group>"; };
+		BFB5CEEE1E1377F0009090C4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BFB5CEF01E151013009090C4 /* DriverOrRiderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverOrRiderViewController.swift; sourceTree = "<group>"; };
+		BFB5CEF31E152297009090C4 /* DriverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
+		BFB5CEF71E1529C6009090C4 /* CreateAccViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccViewController.swift; sourceTree = "<group>"; };
+		BFB5CEF91E1529F7009090C4 /* GoogleVerifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleVerifyViewController.swift; sourceTree = "<group>"; };
+		BFB5CEFB1E15E87A009090C4 /* RiderCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiderCollectionViewController.swift; sourceTree = "<group>"; };
+		D472F92F0693296D1ADC5C8F /* Pods_UniversityRideShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversityRideShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF7ED0591DFE789A00989B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D8F00761D02085EA17AD45 /* Pods_UniversityRideShare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		370F99556DAC93E95EABDF09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D472F92F0693296D1ADC5C8F /* Pods_UniversityRideShare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		852DA6D9F0724C8D37D954A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18F177D6BA5CB2A602A9E39E /* Pods-UniversityRideShare.debug.xcconfig */,
+				976AF000BB54B561FE814C7B /* Pods-UniversityRideShare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF17D79F1E1A4DBD00120B24 /* trash */ = {
+			isa = PBXGroup;
+			children = (
+				BFB5CEE81E1237F8009090C4 /* Test.swift */,
+			);
+			name = trash;
+			sourceTree = "<group>";
+		};
+		BF17D7A21E1B1C5100120B24 /* Post a ride */ = {
+			isa = PBXGroup;
+			children = (
+				BF17D7A31E1B1C7E00120B24 /* DateViewController.swift */,
+				BF17D7A51E1B231D00120B24 /* MapViewController.swift */,
+				BF75DFAD1E20EB60006B21D7 /* AdditionalItemsViewController.swift */,
+			);
+			name = "Post a ride";
+			sourceTree = "<group>";
+		};
+		BF7ED0531DFE789A00989B9D = {
+			isa = PBXGroup;
+			children = (
+				BF7ED0871E03DFC600989B9D /* roadbackground.png */,
+				BF7ED0831E02394100989B9D /* textfieldarea.png */,
+				BF7ED07F1E0236AF00989B9D /* whitespace.png */,
+				BF7ED07D1E01565E00989B9D /* 120 - iPhone.png */,
+				BF7ED07B1E014E2100989B9D /* background3.jpg */,
+				BF7ED0751DFF4CF200989B9D /* GoogleService-Info.plist */,
+				BF7ED0731DFEA84D00989B9D /* background2.png */,
+				BF7ED0711DFEA6F500989B9D /* background.png */,
+				BF7ED05E1DFE789A00989B9D /* UniversityRideShare */,
+				BF7ED05D1DFE789A00989B9D /* Products */,
+				852DA6D9F0724C8D37D954A7 /* Pods */,
+				370F99556DAC93E95EABDF09 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF7ED05D1DFE789A00989B9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF7ED05C1DFE789A00989B9D /* UniversityRideShare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF7ED05E1DFE789A00989B9D /* UniversityRideShare */ = {
+			isa = PBXGroup;
+			children = (
+				BF17D79F1E1A4DBD00120B24 /* trash */,
+				BF7ED05F1DFE789A00989B9D /* AppDelegate.swift */,
+				BFB5CEE71E11BB67009090C4 /* Controller */,
+				BFB5CEF21E151026009090C4 /* Controllers */,
+				BFB5CEE31E1121D8009090C4 /* View */,
+				BF7ED0631DFE789A00989B9D /* Main.storyboard */,
+				BF7ED0661DFE789A00989B9D /* Assets.xcassets */,
+				BF7ED0681DFE789A00989B9D /* LaunchScreen.storyboard */,
+				BF7ED06B1DFE789A00989B9D /* Info.plist */,
+				BF7ED0931E0D196100989B9D /* RidePostsCollectionViewCell.swift */,
+			);
+			path = UniversityRideShare;
+			sourceTree = "<group>";
+		};
+		BFB5CEE31E1121D8009090C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFB5CEE41E112202009090C4 /* PostCell.swift */,
+				BFB5CEEC1E136E32009090C4 /* LoginInfo.swift */,
+				BF96952F1E15F09D0033CDA4 /* RidePosts.swift */,
+				BF13B98B1E178CB30035078E /* Picker.swift */,
+				BF17D7A71E1BAB2E00120B24 /* PickerCell.swift */,
+				BF75DFAB1E20CF36006B21D7 /* DateCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BFB5CEE71E11BB67009090C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF7ED08F1E07DB0400989B9D /* DriverRider2ViewController.swift */,
+				BF7ED08B1E068E3C00989B9D /* LoginScreenViewController.swift */,
+				BF7ED0851E0397C100989B9D /* GoogleSignInViewController.swift */,
+				BF7ED0811E0236EB00989B9D /* CreateAccountViewController.swift */,
+				BF7ED08D1E06990D00989B9D /* DriverPostViewController.swift */,
+				BF7ED0911E0B549F00989B9D /* RiderDriverPostsCollectionViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BFB5CEF21E151026009090C4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF17D7A21E1B1C5100120B24 /* Post a ride */,
+				BFB5CEEE1E1377F0009090C4 /* LoginViewController.swift */,
+				BFB5CEF91E1529F7009090C4 /* GoogleVerifyViewController.swift */,
+				BFB5CEF71E1529C6009090C4 /* CreateAccViewController.swift */,
+				BFB5CEF01E151013009090C4 /* DriverOrRiderViewController.swift */,
+				BF17D7A01E1A672600120B24 /* ProfileViewController.swift */,
+				BFB5CEF31E152297009090C4 /* DriverViewController.swift */,
+				BFB5CEFB1E15E87A009090C4 /* RiderCollectionViewController.swift */,
+				BFB5CEEA1E12443A009090C4 /* FiltersViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF7ED05B1DFE789A00989B9D /* UniversityRideShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF7ED06E1DFE789A00989B9D /* Build configuration list for PBXNativeTarget "UniversityRideShare" */;
+			buildPhases = (
+				4DC0C0E3270CDC72B5E3CA5C /* [CP] Check Pods Manifest.lock */,
+				BF7ED0581DFE789A00989B9D /* Sources */,
+				BF7ED0591DFE789A00989B9D /* Frameworks */,
+				BF7ED05A1DFE789A00989B9D /* Resources */,
+				BDD4053D3128CEB6411CE7F7 /* [CP] Embed Pods Frameworks */,
+				25B8538A6AB2BA9B32657A4D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniversityRideShare;
+			productName = UniversityRideShare;
+			productReference = BF7ED05C1DFE789A00989B9D /* UniversityRideShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF7ED0541DFE789A00989B9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kyung Lee";
+				TargetAttributes = {
+					BF7ED05B1DFE789A00989B9D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BF7ED0571DFE789A00989B9D /* Build configuration list for PBXProject "UniversityRideShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF7ED0531DFE789A00989B9D;
+			productRefGroup = BF7ED05D1DFE789A00989B9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF7ED05B1DFE789A00989B9D /* UniversityRideShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF7ED05A1DFE789A00989B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7ED06A1DFE789A00989B9D /* LaunchScreen.storyboard in Resources */,
+				BF7ED0881E03DFC600989B9D /* roadbackground.png in Resources */,
+				BF7ED0721DFEA6F500989B9D /* background.png in Resources */,
+				BF7ED0841E02394100989B9D /* textfieldarea.png in Resources */,
+				BF7ED0801E0236AF00989B9D /* whitespace.png in Resources */,
+				BF7ED0741DFEA84D00989B9D /* background2.png in Resources */,
+				BF7ED0671DFE789A00989B9D /* Assets.xcassets in Resources */,
+				BF7ED0651DFE789A00989B9D /* Main.storyboard in Resources */,
+				BF7ED0761DFF4CF200989B9D /* GoogleService-Info.plist in Resources */,
+				BF7ED07E1E01565E00989B9D /* 120 - iPhone.png in Resources */,
+				BF7ED07C1E014E2100989B9D /* background3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25B8538A6AB2BA9B32657A4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UniversityRideShare/Pods-UniversityRideShare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DC0C0E3270CDC72B5E3CA5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BDD4053D3128CEB6411CE7F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UniversityRideShare/Pods-UniversityRideShare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF7ED0581DFE789A00989B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7ED0941E0D196100989B9D /* RidePostsCollectionViewCell.swift in Sources */,
+				BFB5CEF81E1529C6009090C4 /* CreateAccViewController.swift in Sources */,
+				BF7ED08E1E06990D00989B9D /* DriverPostViewController.swift in Sources */,
+				BF7ED0821E0236EB00989B9D /* CreateAccountViewController.swift in Sources */,
+				BFB5CEED1E136E32009090C4 /* LoginInfo.swift in Sources */,
+				BF7ED0861E0397C100989B9D /* GoogleSignInViewController.swift in Sources */,
+				BFB5CEFA1E1529F7009090C4 /* GoogleVerifyViewController.swift in Sources */,
+				BF7ED0901E07DB0400989B9D /* DriverRider2ViewController.swift in Sources */,
+				BFB5CEF41E152297009090C4 /* DriverViewController.swift in Sources */,
+				BF17D7A61E1B231D00120B24 /* MapViewController.swift in Sources */,
+				BF7ED08C1E068E3C00989B9D /* LoginScreenViewController.swift in Sources */,
+				BF75DFAC1E20CF36006B21D7 /* DateCell.swift in Sources */,
+				BF17D7A41E1B1C7E00120B24 /* DateViewController.swift in Sources */,
+				BF7ED0601DFE789A00989B9D /* AppDelegate.swift in Sources */,
+				BFB5CEE91E1237F8009090C4 /* Test.swift in Sources */,
+				BF7ED0921E0B549F00989B9D /* RiderDriverPostsCollectionViewController.swift in Sources */,
+				BFB5CEEB1E12443A009090C4 /* FiltersViewController.swift in Sources */,
+				BFB5CEFC1E15E87A009090C4 /* RiderCollectionViewController.swift in Sources */,
+				BF75DFAE1E20EB60006B21D7 /* AdditionalItemsViewController.swift in Sources */,
+				BF17D7A81E1BAB2E00120B24 /* PickerCell.swift in Sources */,
+				BF13B98C1E178CB30035078E /* Picker.swift in Sources */,
+				BFB5CEEF1E1377F0009090C4 /* LoginViewController.swift in Sources */,
+				BFB5CEF11E151013009090C4 /* DriverOrRiderViewController.swift in Sources */,
+				BF17D7A11E1A672600120B24 /* ProfileViewController.swift in Sources */,
+				BFB5CEE51E112202009090C4 /* PostCell.swift in Sources */,
+				BF9695301E15F09D0033CDA4 /* RidePosts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF7ED0631DFE789A00989B9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF7ED0641DFE789A00989B9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF7ED0681DFE789A00989B9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF7ED0691DFE789A00989B9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF7ED06C1DFE789A00989B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF7ED06D1DFE789A00989B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF7ED06F1DFE789A00989B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F177D6BA5CB2A602A9E39E /* Pods-UniversityRideShare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UniversityRideShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = project.UniversityRideShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF7ED0701DFE789A00989B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 976AF000BB54B561FE814C7B /* Pods-UniversityRideShare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UniversityRideShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = project.UniversityRideShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF7ED0571DFE789A00989B9D /* Build configuration list for PBXProject "UniversityRideShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7ED06C1DFE789A00989B9D /* Debug */,
+				BF7ED06D1DFE789A00989B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF7ED06E1DFE789A00989B9D /* Build configuration list for PBXNativeTarget "UniversityRideShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7ED06F1DFE789A00989B9D /* Debug */,
+				BF7ED0701DFE789A00989B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF7ED0541DFE789A00989B9D /* Project object */;
+}
