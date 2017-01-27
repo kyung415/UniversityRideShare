@@ -1,0 +1,6 @@
+framework module Pods_UniversityRideShare {
+  umbrella header "Pods-UniversityRideShare-umbrella.h"
+
+  export *
+  module * { export * }
+}
